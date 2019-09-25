@@ -1,8 +1,8 @@
 {
-  "name": "groupme-bot-starter",
-  "version": "1.0.0",
-  "description": "Starter code for the GroupMe bot workshop at ACM@UC",
-  "author": "Noah Bass <noah@noahbass.com>",
+  "name": "kitchen-bot",
+  "version": "1.0.1",
+  "description": "Based starter code for the GroupMe bot workshop at ACM@UC from groupme-starter-bot git repository by Noah Bass noahbass.com",
+  "author": "Rob McCollough",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -14,13 +14,16 @@
   "dependencies": {
     "director": "1.2.8",
     "dotenv": "2.0.0",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.2",
     "winston": "2.2.0"
   },
   "devDependencies": {
     "localtunnel": "1.8.1",
     "promptly": "2.1.0"
   },
-  "homepage": "https://github.com/acmatuc/groupme-bot-starter",
+  "homepage": "https://github.com/acmatuc/kitchen-bot",
   "bugs": "https://github.com/acmatuc/groupme-bot-starter/issues",
   "repository": {
     "type": "git",
