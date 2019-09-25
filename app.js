@@ -1,5 +1,5 @@
 'use strict';
-require('dotenv').config();
+//require('dotenv').config();
 const director = require('director');
 const Server = require('./lib/server');
 const mongoose = require('mongoose');
