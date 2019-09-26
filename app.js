@@ -1,5 +1,5 @@
 'use strict';
-//require('dotenv').config();
+require('dotenv').config();
 const director = require('director');
 const Server = require('./lib/server');
 const mongoose = require('mongoose');
@@ -13,6 +13,10 @@ const router = new director.http.Router({
     '/': {
         post: Server.postResponse,
         get: Server.getResponse
+    },
+    '/upload':{
+        get: Server.getUpload,
+        post: Server.postUpload
     }
 });
 
