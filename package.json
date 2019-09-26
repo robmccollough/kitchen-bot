@@ -23,11 +23,10 @@
     "localtunnel": "1.8.1",
     "promptly": "2.1.0"
   },
-  "homepage": "https://github.com/acmatuc/kitchen-bot",
-  "bugs": "https://github.com/acmatuc/groupme-bot-starter/issues",
+  "homepage": "https://github.com/robmccollough/kitchen-bot",
   "repository": {
     "type": "git",
-    "url": "https://github.com/acmatuc/groupme-bot-starter.git"
+    "url": "https://github.com/robmccollough/kitchen-bot.git"
   },
   "license": "MIT"
 }

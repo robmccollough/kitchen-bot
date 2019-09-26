@@ -16,11 +16,11 @@ const router = new director.http.Router({
     }
 });
 
-// Check if the `--dev` flag was passed
+// // Check if the `--dev` flag was passed
 const devMode = process.argv[2] === '--dev';
 
 // Start listening
-const server = new Server(router, devMode);
+const server = new Server(router, devMode, process.env.PORT || 80);
 server.serve();
 
 
