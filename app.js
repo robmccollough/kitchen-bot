@@ -1,5 +1,5 @@
 'use strict';
-//require('dotenv').config();
+require('dotenv').config();
 const director = require('director');
 const Server = require('./lib/server');
 const mongoose = require('mongoose');
@@ -22,6 +22,5 @@ const devMode = process.argv[2] === '--dev';
 // Start listening
 const server = new Server(router, devMode, process.env.PORT || 80);
 server.serve();
-
 
 
