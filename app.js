@@ -28,4 +28,3 @@ const server = new Server(router, devMode, process.env.PORT || 80);
 server.serve();
 
 
-
